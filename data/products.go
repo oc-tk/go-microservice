@@ -7,7 +7,7 @@ type Product struct {
 	Name      string
 	Desc      string
 	Price     float32
-	SKU       string
+	SKU       string //internal id
 	CreatedOn string
 	UpdatedOn string
 	DeletedOn string
@@ -25,7 +25,7 @@ var productList = []*Product{
 	},
 	{
 		Id:        2,
-		Name:      "black tea",
+		Name:      "british black tea",
 		Desc:      "the most british tea you have ever seen",
 		Price:     11.9,
 		SKU:       "brits21",
